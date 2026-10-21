@@ -1,0 +1,78 @@
+{
+ "topic": "why templates kill motion design",
+ "seed": 25,
+ "mood": "",
+ "world_metaphor": {
+  "name": "investigator's evidence desk",
+  "canvas": [
+   6400,
+   3600
+  ],
+  "surfaces": [
+   "charcoal felt",
+   "pinned photos",
+   "newsprint"
+  ]
+ },
+ "camera_personality": {
+  "name": "pendulum",
+  "moves": "alternating L/R arcs with roll +-2.5deg, cuts at arc apex",
+  "handheld": 0.3
+ },
+ "texture_kit": {
+  "name": "archival sepia+tape",
+  "css": [
+   "sepia grade",
+   "tape corners",
+   "grain .14"
+  ]
+ },
+ "type_attitude": "stacked condensed sans ALL-CAPS ladder, numbers in mono",
+ "pacing_profile": {
+  "name": "relentless",
+  "cuts_per_min": [
+   70,
+   90
+  ],
+  "micro_beat_s": 0.75,
+  "holds": 0
+ },
+ "signature_motif": "a torn corner that completes into the full page at payoff",
+ "signature_transition": "split-flap board flip (rows flip to the next composition)",
+ "lighting_plan": {
+  "name": "phosphor dark + glass HUD",
+  "pool": 0.5,
+  "shadows": "0 24px 50px rgba(0,0,0,.65)",
+  "glass": true
+ },
+ "palette": {
+  "accent": "#C65D37",
+  "paper": "#F1EDE2",
+  "ink": "#17150F"
+ },
+ "binding": true,
+ "overrides": [],
+ "forbidden": {
+  "example_skeleton": {
+   "duration": 27.0,
+   "cuts": [
+    3.6,
+    7.2,
+    11.9,
+    15.4,
+    19.6,
+    23.2
+   ],
+   "accent": "#E4472C",
+   "titles": [
+    "most teams ship",
+    "not because",
+    "waiting is the real cost",
+    "one push",
+    "push to deploy",
+    "ship today"
+   ]
+  },
+  "rule": "Copying the example storyboard's cut times, titles, accent or scene structure is a lint ERROR."
+ }
+}
